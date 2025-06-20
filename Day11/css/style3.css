@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+
+}
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 3,58);
+    color: white;
+    padding: 20px 40px;
+
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;         /*     to align vertically center */
+    padding: 40px,4px;
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: rgb(240, 240, 243);
+}
+.heroimg img{
+    padding-top: 30px;
+    width: 400px;
+    height: 250px;
+}
+.herotext h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.herotext p{
+    margin-bottom: 30px;
+}
+.hero button{
+    padding: 15px 30px;
+    background-color: rgb(48, 6, 85);
+    color: white;
+    font-weight: bold ;
+    border-radius: none;
+}
+.hero button:hover{
+    background-color: rgb(9, 9, 186);
+
+}
+.hero-text{ 
+    max-width: 200px;
+ }  
+ .features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   background-color:white;
+   padding: 20px 40px;
+   gap: 20px;
+   text-align: center;
+ }
+ .feature{
+    flex: 1 1 250px;
+    background-color: rgb(240, 240, 243);
+    padding: 40px 20px;
+    border-radius: 10px;
+ }
+ .product-gallery{
+    background-color: rgb(240, 240, 243);
+    padding: 40px 20px;
+    text-align: center;
+    
+ }
+ .product-gallery h2{
+    background-color: rgb(240, 240, 243);
+    color:black;
+ }
+ .product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: rgb(240, 240, 243);
+    
+   gap: 30px;
+ }
+ .product-card:hover{
+    /* border: 2px solid blue; */
+    transform: translateY(-10px);
+    transform: scale(1.1,1.1) ;
+    /* transform: skew(30deg,30deg); */
+    /* transform: rotate(360DEG); */
+    /* transform: scale(.5,.5); */
+
+}
+.product-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(191,191, 236);
+    transition: .3s ease;
+    
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    color: white;
+     padding: 20px 200px;
+
+}
+footer button{
+    background-color: white;
+    color: blue;
+    padding: 8px;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: bold ;
+    
+
+
+    width:100px;
+}
+footer input{
+    padding: 8px;
+    /* padding-left: 50px; */
+    border-radius: 10px;
+    font-weight: bold ;
+    
+
+    width:200px;
+}
